@@ -1,6 +1,6 @@
 import users from './users.js';
 const getUserNames = users => {
-  return  names = users.map(user => user.name);
+  return  users.map(user => user.name);
   };
   
   console.log(getUserNames(users));
